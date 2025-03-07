@@ -2,10 +2,10 @@
 const mongoose=require('mongoose');
 const employeeSchema=mongoose.Schema(
     {
-        employeeName:String,
-        empLocation:String,
-        empPosition:String,
-        empSalary:Number,
+        name:String,
+        location:String,
+        position:String,
+        salary:Number,
 
     }
 )
